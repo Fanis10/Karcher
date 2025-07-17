@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Карточка товара</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__top">
+                <a class="header__logo" href="">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="header__search">
+                    <input type="search" placeholder="Поиск по сайту">
+                    <span class="header__search-btn">
+                        <img src="img/search.svg" alt="">
+                    </span>
+                </div>
+                <div class="header__group">
+                    <div class="header__subgroup">
+                        <a class="header__phone" href="tel:88888888888">8 (888) 888-88-88</a>
+                        <div class="header__socials">
+                            <a class="header__social btn" href="">
+                                <img src="img/whatsapp.svg" alt="">
+                            </a>
+                            <a class="header__social btn" href="">
+                                <img src="img/telegram.svg" alt="">
+                            </a>
+                            <a class="header__social btn" href="">
+                                <img src="img/email.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <ul class="header__menu">
+                    <li>
+                        <div class="header__item">
+                            <a href="#" class="header__item-show">
+                                <div class="header__item-title">Бытовая техника</div>
+                                <div class="header__item-btn">
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.46967 6.53033C5.76256 6.82322 6.23744 6.82322 6.53033 6.53033L11.3033 1.75736C11.5962 1.46447 11.5962 0.989592 11.3033 0.696699C11.0104 0.403806 10.5355 0.403806 10.2426 0.696699L6 4.93934L1.75736 0.696699C1.46447 0.403806 0.989592 0.403806 0.696699 0.696699C0.403806 0.989593 0.403806 1.46447 0.696699 1.75736L5.46967 6.53033ZM6 5L5.25 5L5.25 6L6 6L6.75 6L6.75 5L6 5Z" fill="black"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <div class="header__item-hidden">
+                                <ul class="header__item-list">
+                                    <li><a href="">Бытовая техника 2</a></li>
+                                    <li><a href="">Бытовая техника 3</a></li>
+                                    <li><a href="">Бытовая техника 4</a></li>
+                                    <li><a href="">Бытовая техника 5</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Профессиональная техника</a></li>
+                    <li><a href="">Покупка и сервис</a></li>
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Интернет-магазин</a></li>
+                </ul>
+            </div>
+            <div class="header__mob">
+                <div class="header__search">
+                    <input type="search" placeholder="Поиск по сайту">
+                    <span class="header__search-btn">
+                        <img src="img/search.svg" alt="">
+                    </span>
+                </div>
+                <ul class="header__menu">
+                    <li>
+                        <div class="header__item">
+                            <a href="#" class="header__item-show">
+                                <div class="header__item-title">Бытовая техника</div>
+                                <div class="header__item-btn">
+                                    <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.46967 6.53033C5.76256 6.82322 6.23744 6.82322 6.53033 6.53033L11.3033 1.75736C11.5962 1.46447 11.5962 0.989592 11.3033 0.696699C11.0104 0.403806 10.5355 0.403806 10.2426 0.696699L6 4.93934L1.75736 0.696699C1.46447 0.403806 0.989592 0.403806 0.696699 0.696699C0.403806 0.989593 0.403806 1.46447 0.696699 1.75736L5.46967 6.53033ZM6 5L5.25 5L5.25 6L6 6L6.75 6L6.75 5L6 5Z" fill="black"/>
+                                    </svg>
+                                </div>
+                            </a>
+                            <div class="header__item-hidden">
+                                <ul class="header__item-list">
+                                    <li><a href="">Бытовая техника 2</a></li>
+                                    <li><a href="">Бытовая техника 3</a></li>
+                                    <li><a href="">Бытовая техника 4</a></li>
+                                    <li><a href="">Бытовая техника 5</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Профессиональная техника</a></li>
+                    <li><a href="">Покупка и сервис</a></li>
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Интернет-магазин</a></li>
+                </ul>
+                <div class="header__subgroup">
+                    <a class="header__phone" href="tel:88888888888">8 (888) 888-88-88</a>
+                    <div class="header__socials">
+                        <a class="header__social btn" href="">
+                            <img src="img/whatsapp.svg" alt="">
+                        </a>
+                        <a class="header__social btn" href="">
+                            <img src="img/telegram.svg" alt="">
+                        </a>
+                        <a class="header__social btn" href="">
+                            <img src="img/email.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+		<main class="content">
+			<section class="page-top">
+				<div class="page-top__inner">
+					<div class="page-top__wrap">
+						<div class="container">
+							<div class="breadcrumbs">
+								<div class="breadcrumbs__items">
+									<a href="" class="breadcrumbs__item">Главная /</a>
+									<a href="" class="breadcrumbs__item">Бытовая техника /</a>
+									<span class="breadcrumbs__item breadcrumbs__item--active">Мойка высокого давления к 7</span>
+								</div>
+							</div>
+							<h1 class="page-top__title h2">Мойка высокого давления к 7</h1>
+							<div class="page-top__text text22">
+								<p>
+									Аппарат высокого давления K 7 с двигателем водяного охлаждения – оптимальное решение для частого
+									применения и удаления
+									сильных загрязнений с дорожек, стенок бассейнов, велосипедов или больших автомобилей
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="product-main">
+				<div class="container">
+					<div class="product-main__inner">
+						<div class="gallery">
+							<div class="gallery__big swiper mySwiper2">
+								<div class="swiper-wrapper gallery-group">
+									<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img.webp">
+										<img src="img/product-main__img.webp" alt="">
+									</a>
+									<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img.webp">
+										<img src="img/product-main__img.webp" alt="">
+									</a>
+									<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img.webp">
+										<img src="img/product-main__img.webp" alt="">
+									</a>
+									<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img.webp">
+										<img src="img/product-main__img.webp" alt="">
+									</a>
+									<a class="swiper-slide" data-fancybox="gallery" href="img/product-main__img.webp">
+										<img src="img/product-main__img.webp" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="gallery__small-wrapp">
+								<div thumbsslider="" class="gallery__small swiper mySwiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="img/product-main__img.webp" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="img/product-main__img.webp" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="img/product-main__img.webp" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="img/product-main__img.webp" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="img/product-main__img.webp" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-main__desc">
+							<div class="product-main__top">
+								<a class="product-main__link" href="">
+									<i>
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M0.292893 7.29289C-0.097631 7.68342 -0.097631 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM2 8L2 7H1L1 8V9H2V8Z"
+												fill="#B2B2B2" />
+										</svg>
+									</i>
+									<span>Вернуться в каталог</span>
+								</a>
+								<div class="product-main__subgroup">
+									<div class="product-main__subtitle2">Другие товары</div>
+									<div class="product-main__btns">
+										<a href="" class="product-main__prev">
+											<svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9 3.5C9.27614 3.5 9.5 3.72386 9.5 4C9.5 4.27614 9.27614 4.5 9 4.5L9 3.5ZM0.646447 4.35355C0.451185 4.15829 0.451185 3.84171 0.646447 3.64645L3.82843 0.464466C4.02369 0.269203 4.34027 0.269203 4.53553 0.464466C4.7308 0.659728 4.7308 0.97631 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.7308 4.02369 7.7308 3.82843 7.53553L0.646447 4.35355ZM9 4L9 4.5L1 4.5L1 4L1 3.5L9 3.5L9 4Z"
+													fill="black" />
+											</svg>
+
+										</a>
+										<a href="" class="product-main__next">
+											<svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723857 4.5 1 4.5L1 3.5ZM9.35355 4.35356C9.54881 4.15829 9.54881 3.84171 9.35355 3.64645L6.17157 0.464468C5.97631 0.269205 5.65973 0.269205 5.46447 0.464467C5.2692 0.65973 5.2692 0.976312 5.46447 1.17157L8.29289 4L5.46446 6.82843C5.2692 7.02369 5.2692 7.34027 5.46446 7.53554C5.65973 7.7308 5.97631 7.7308 6.17157 7.53554L9.35355 4.35356ZM1 4L1 4.5L9 4.5L9 4L9 3.5L1 3.5L1 4Z"
+													fill="black" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<h3 class="product-main__title h3">Мойка высокого давления к 7</h3>
+							<div class="product-main__number">№ для заказа: 1.168-502.0</div>
+							<div class="product-main__text">
+								<p>
+									Аппарат высокого давления K 7 с двигателем водяного охлаждения – оптимальное решение для частого
+									применения и удаления
+									сильных загрязнений с дорожек, стенок бассейнов, велосипедов или больших автомобилей
+								</p>
+							</div>
+							<div class="product-main__subtitle">Преимущества:</div>
+							<ul class="product-main__list">
+								<li>
+									<strong>Высокая производительность</strong>
+									<p>
+										Новый мотор с водяным охлаждением порадует своей производительностью
+									</p>
+								</li>
+								<li>
+									<strong>Система Plug 'n' Clean</strong>
+									<p>
+										Быстро, легко и удобно – благодаря системе Plug ’n’ Clean чистящее средство заменяется буквально
+										одним движением руки.
+									</p>
+								</li>
+								<li>
+									<strong>Система Quick Connect</strong>
+									<p>
+										Быстро, легко и удобно – благодаря системе Plug ’n’ Clean чистящее средство заменяется буквально
+										одним движением руки.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="product-info">
+				<div class="container">
+					<div class="product-info__inner">
+						<div class="menu-blocks">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="#">Описание</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#">Особенности и преимущества</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#">Спецификации</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#">Загрузки</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#">Области применения</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#">Принадлежности</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-button-prev">
+								<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M0.292893 7.29289C-0.097631 7.68342 -0.097631 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM2 8V7H1V8L1 9H2L2 8Z"
+										fill="#848484" />
+								</svg>
+							</div>
+							<div class="swiper-button-next">
+								<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.70711 8.70711C9.09763 8.31658 9.09763 7.68342 8.70711 7.29289L2.34315 0.928932C1.95262 0.538407 1.31946 0.538407 0.928933 0.928932C0.538408 1.31946 0.538408 1.95262 0.928933 2.34315L6.58579 8L0.928932 13.6569C0.538407 14.0474 0.538407 14.6805 0.928932 15.0711C1.31946 15.4616 1.95262 15.4616 2.34315 15.0711L8.70711 8.70711ZM7 8L7 9L8 9L8 8L8 7L7 7L7 8Z"
+										fill="#848484" />
+								</svg>
+							</div>
+						</div>
+						<div class="product-info__text">
+							<p>
+								Аппарат высокого давления K 7, оснащенный двигателем водяного охлаждения, рассчитан на частое
+								применение и удаление
+								сильных загрязнений с садовых дорожек, стенок плавательных бассейнов, велосипедов, кузовов автомобилей
+								больших размеров
+								и т. д. Его комплектация включает пистолет с практичным разъемом Quick Connect, шланг высокого давления
+								очень большой
+								длины (10 м), надежный водяной фильтр для защиты насоса, струйную трубку Vario Power и грязевую фрезу,
+								формирующую
+								вращающуюся точечную струю воды. Трубка Vario Power позволяет очень легко изменять давление для
+								выполнения разных работ,
+								а грязевая фреза гарантирует устранение даже самых стойких загрязнений. Прекрасным дополнением к
+								аппарату является
+								входящее в комплект поставки универсальное чистящее средство
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="specifications">
+				<div class="container">
+					<div class="specifications__inner">
+						<div class="title-border">СПЕЦИФИКАЦИИ:</div>
+						<div class="specifications__wrap">
+							<div class="specifications__left">
+								<div class="specifications__subtitle">Технические характеристики</div>
+								<ul class="specifications__list">
+									<li>
+										<span>Параметры электросети (В/Гц)</span>
+										<span>230 / 50</span>
+									</li>
+									<li>
+										<span>Давление (бар/МПа)</span>
+										<span>20 - до 160 / 2 - макс. 16</span>
+									</li>
+									<li>
+										<span>Производительность (л/ч)</span>
+										<span>макс. 600</span>
+									</li>
+									<li>
+										<span>Производительность <br> по площади (м²/ч)</span>
+										<span>60</span>
+									</li>
+									<li>
+										<span>Температура воды <br> на входе (°C)</span>
+										<span>макс. 60</span>
+									</li>
+									<li>
+										<span>Потребляемая мощность <br> (кВт)</span>
+										<span>3</span>
+									</li>
+									<li>
+										<span>Длина кабеля (м)</span>
+										<span>5</span>
+									</li>
+									<li>
+										<span>Цвет</span>
+										<span>желтый</span>
+									</li>
+									<li>
+										<span>Масса (без <br> принадлежностей) (кг)</span>
+										<span>18,88</span>
+									</li>
+									<li>
+										<span>Масса (с упаковкой) (кг)</span>
+										<span>23,8</span>
+									</li>
+									<li>
+										<span>Размеры (Д × Ш × В) (мм)</span>
+										<span>404 x 461 x 968</span>
+									</li>
+								</ul>
+							</div>
+							<div class="specifications__right">
+								<nav class="specifications__nav text list--black">
+									<div class="specifications__subtitle">Scope of supply</div>
+									<ul class="specifications__list2">
+										<li>Чистящее средство: Универсальное чистящее средство RM 626, 1 л</li>
+										<li>Пистолет: стандартный (Quick Connect)</li>
+										<li>Грязевая фреза</li>
+										<li>Шланг высокого давления: 10 м</li>
+										<li>Адаптер для садового шланга A3/4"</li>
+									</ul>
+								</nav>
+								<nav class="specifications__nav text list--black">
+									<div class="specifications__subtitle">Оснащение</div>
+									<ul class="specifications__list2">
+										<li>Струйная трубка Vario Power</li>
+										<li>Разъем Quick Connect на корпусе аппарата</li>
+										<li>Система подачи чистящего средства: Система Plug ’n’ Clean</li>
+										<li>Двигатель водяного охлаждения</li>
+										<li>Встроенный фильтр для воды</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="specifications__items">
+							<div class="specifications__item">
+								<img src="img/specifications-img.webp" alt="">
+							</div>
+							<div class="specifications__item">
+								<img src="img/specifications-img2.webp" alt="">
+							</div>
+							<div class="specifications__item">
+								<img src="img/specifications-img3.webp" alt="">
+							</div>
+							<div class="specifications__item">
+								<img src="img/specifications-img4.webp" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="documents">
+				<div class="container">
+					<div class="documents__inner">
+						<div class="title-border">Документы</div>
+						<div class="documents__subtitle">Инструкция по эксплуатации</div>
+						<div class="documents__cards">
+							<div class="document-card">
+								<div class="document-card__img">
+									<img src="img/documents-img.webp" alt="">
+								</div>
+								<a download="" class="document-card__btn btn btn-yellow" href="">
+									<span>Скачать</span>
+									<i>
+										<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M4.49638 0.833773C4.43755 0.917824 4.42914 1.43053 4.42914 5.4986V10.071H2.51698H0.600621L0.49976 10.176C0.26862 10.4072 0.0837075 10.1971 4.13076 14.2483C7.51802 17.6356 7.87944 17.9844 8.00131 17.9844C8.12318 17.9844 8.4846 17.6356 11.8719 14.2483C15.9189 10.1971 15.734 10.4072 15.5029 10.176L15.402 10.071H13.4856H11.5735V5.4986C11.5735 1.43053 11.5651 0.917824 11.5062 0.833773L11.4432 0.741318H8.00131H4.55942L4.49638 0.833773Z"
+												fill="#1B1C1D" />
+											<path
+												d="M0.861691 19.5939C0.77764 19.7032 0.773438 19.7578 0.773438 20.8967C0.773438 22.0356 0.77764 22.0944 0.857488 22.1742C0.941539 22.2583 0.996173 22.2583 8.00182 22.2583C15.0075 22.2583 15.0621 22.2583 15.1462 22.1742C15.226 22.0944 15.2302 22.0356 15.2302 20.8967C15.2302 19.7578 15.226 19.7032 15.142 19.5939L15.0579 19.4846H8.00182H0.945742L0.861691 19.5939Z"
+												fill="#1B1C1D" />
+										</svg>
+									</i>
+								</a>
+							</div>
+							<div class="document-card">
+								<div class="document-card__img">
+									<img src="img/documents-img2.webp" alt="">
+								</div>
+								<a download="" class="document-card__btn btn btn-yellow" href="">
+									<span>Скачать</span>
+									<i>
+										<svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M4.49638 0.833773C4.43755 0.917824 4.42914 1.43053 4.42914 5.4986V10.071H2.51698H0.600621L0.49976 10.176C0.26862 10.4072 0.0837075 10.1971 4.13076 14.2483C7.51802 17.6356 7.87944 17.9844 8.00131 17.9844C8.12318 17.9844 8.4846 17.6356 11.8719 14.2483C15.9189 10.1971 15.734 10.4072 15.5029 10.176L15.402 10.071H13.4856H11.5735V5.4986C11.5735 1.43053 11.5651 0.917824 11.5062 0.833773L11.4432 0.741318H8.00131H4.55942L4.49638 0.833773Z"
+												fill="#1B1C1D" />
+											<path
+												d="M0.861691 19.5939C0.77764 19.7032 0.773438 19.7578 0.773438 20.8967C0.773438 22.0356 0.77764 22.0944 0.857488 22.1742C0.941539 22.2583 0.996173 22.2583 8.00182 22.2583C15.0075 22.2583 15.0621 22.2583 15.1462 22.1742C15.226 22.0944 15.2302 22.0356 15.2302 20.8967C15.2302 19.7578 15.226 19.7032 15.142 19.5939L15.0579 19.4846H8.00182H0.945742L0.861691 19.5939Z"
+												fill="#1B1C1D" />
+										</svg>
+									</i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="product-filter">
+				<div class="container">
+					<div class="product-filter__inner">
+						<div class="title-border">Области применения</div>
+						<div class="product-filter__btns">
+							<a class="product-filter__btn btn" href="">
+								<span>Велосипеды</span>
+							</a>
+							<a class="product-filter__btn btn" href="">
+								<span>Садовый инвентарь</span>
+							</a>
+							<a class="product-filter__btn btn" href="">
+								<span>Садовая мебель, мебель для террас и балконов</span>
+							</a>
+							<a class="product-filter__btn btn" href="">
+								<span>Наружные лестницы</span>
+							</a>
+							<a class="product-filter__btn btn" href="">
+								<span>Изгороди, садовые дорожки или каменные плитки</span>
+							</a>
+							<a class="product-filter__btn btn" href="">
+								<span>Мотоциклы и мотороллеры</span>
+							</a>
+							<a class="product-filter__btn btn" href="">
+								<span>Автодома и внедорожники</span>
+							</a>
+							<a class="product-filter__btn btn" href="">
+								<span>Легковые автомобили малого и среднего классов</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="products2 products2--2">
+				<div class="container">
+					<div class="products2__inner">
+						<div class="title-border">принадлежности</div>
+						<div class="products2__group">
+							<div class="products2__select filter-select custom_select">
+								<select>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+								</select>
+							</div>
+							<div class="products2__subgroup">
+								<div class="products2__select custom_select">
+									<select>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+									</select>
+								</div>
+								<div class="sorting">
+									<button class="sorting-btn">
+										<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.09117 0.0714865C0.601256 0.245925 0.241245 0.609648 0.0705177 1.10327C0.00371146 1.29627 0 1.45957 0 4.28028C0 6.72242 0.0111344 7.28285 0.0519604 7.42389C0.237533 8.03256 0.749715 8.47423 1.38066 8.57444C1.52541 8.59671 2.70194 8.60784 4.45375 8.59671C7.53426 8.58557 7.43405 8.59299 7.79035 8.38144C7.98335 8.26639 8.26542 7.98432 8.37305 7.79874C8.59574 7.42017 8.58832 7.54636 8.59945 4.45101C8.61058 2.6992 8.59945 1.52267 8.57718 1.37792C8.47697 0.746972 8.03531 0.23479 7.42663 0.0492172C7.28559 0.00839138 6.72887 -0.00274277 4.26818 0.000967979C1.48458 0.000967979 1.26932 0.00839138 1.09117 0.0714865Z"
+												fill="#515151"></path>
+											<path
+												d="M11.5571 0.052928C10.9632 0.242212 10.5216 0.754395 10.4251 1.37792C10.4028 1.52267 10.3917 2.6992 10.4028 4.45101C10.4139 7.54636 10.4065 7.42017 10.6292 7.79874C10.7368 7.98432 11.0189 8.26639 11.2119 8.38144C11.5682 8.59299 11.468 8.58557 14.5485 8.59671C16.3003 8.60784 17.4768 8.59671 17.6216 8.57444C18.2525 8.47423 18.7647 8.03256 18.9503 7.42389C18.9911 7.28285 19.0023 6.72242 19.0023 4.28028C19.0023 1.45957 18.9985 1.29627 18.9317 1.10327C18.761 0.602225 18.3973 0.238502 17.8962 0.0677738C17.7032 0.000967979 17.5474 -0.00274372 14.7007 0.000967979C12.381 0.00467968 11.6758 0.0158138 11.5571 0.052928Z"
+												fill="#515151"></path>
+											<path
+												d="M1.325 10.4265C0.887044 10.5045 0.378574 10.8682 0.185578 11.2431C-0.00370618 11.6142 5.2851e-06 11.54 5.2851e-06 14.717C5.2851e-06 17.5377 0.00371675 17.701 0.070523 17.894C0.24125 18.395 0.604973 18.7588 1.10602 18.9295C1.29902 18.9963 1.46232 19 4.28303 19C6.72517 19 7.2856 18.9889 7.42663 18.948C8.03531 18.7625 8.47698 18.2503 8.57719 17.6193C8.59946 17.4746 8.61059 16.2981 8.59946 14.5462C8.58832 12.0225 8.5809 11.6884 8.52894 11.5325C8.3545 11.0352 7.9648 10.6455 7.47488 10.4748C7.31158 10.4191 7.00724 10.4117 4.39808 10.4043C2.80587 10.4006 1.42149 10.4117 1.325 10.4265Z"
+												fill="#515151"></path>
+											<path
+												d="M11.8391 10.4154C11.1859 10.5156 10.6849 10.9239 10.477 11.5251C10.4214 11.6884 10.4139 11.9965 10.4028 14.5462C10.3917 16.2981 10.4028 17.4746 10.4251 17.6193C10.5253 18.2503 10.9669 18.7625 11.5756 18.948C11.7167 18.9889 12.2771 19 14.7192 19C17.5399 19 17.7032 18.9963 17.8962 18.9295C18.3973 18.7588 18.761 18.395 18.9317 17.894C18.9985 17.701 19.0023 17.5377 19.0023 14.717C19.0023 12.2748 18.9911 11.7144 18.9503 11.5734C18.7684 10.9721 18.26 10.5267 17.6439 10.4265C17.4397 10.3931 12.0507 10.382 11.8391 10.4154Z"
+												fill="#515151"></path>
+										</svg>
+									</button>
+									<button class="sorting-btn">
+										<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.0673 0.0632501C0.904048 0.148584 0.792743 0.25989 0.711119 0.415718C0.644335 0.545575 0.640625 0.65688 0.640625 2.36728V4.18156L0.725959 4.34481C0.774192 4.43385 0.885497 4.55629 0.970832 4.61936L1.13037 4.73067L2.97433 4.7418L4.8183 4.75293L4.98155 4.66389C5.08543 4.61194 5.19303 4.51177 5.27094 4.40046L5.38967 4.22237V2.38212V0.545575L5.2932 0.382326C5.23755 0.285861 5.12624 0.170846 5.02607 0.107772L4.8554 0.000176907H3.01886C1.41605 0.00388718 1.16376 0.0113072 1.0673 0.0632501Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M7.39054 0.0741849C7.20503 0.17065 7.06775 0.326478 7.00097 0.515697C6.95273 0.652975 6.94531 0.942369 6.94531 2.3745C6.94531 3.80664 6.95273 4.09603 7.00097 4.23331C7.07146 4.42624 7.20874 4.58206 7.39796 4.67853C7.53152 4.74531 7.70219 4.74902 13.3009 4.74902H19.0665L19.2297 4.66369C19.3299 4.61175 19.4412 4.50786 19.5154 4.40027L19.6342 4.22218V2.38192V0.545379L19.5377 0.382131C19.482 0.285666 19.3707 0.17065 19.2706 0.107577L19.0999 -1.85966e-05H13.312C7.73187 0.00369167 7.51668 0.00740194 7.39054 0.0741849Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M1.0673 7.18679C0.904048 7.27212 0.792743 7.38343 0.711119 7.53925C0.644335 7.66911 0.640625 7.78042 0.640625 9.49081V11.3051L0.725959 11.4683C0.774192 11.5574 0.885497 11.6798 0.970832 11.7429L1.13037 11.8542L2.97433 11.8653L4.8183 11.8765L4.98155 11.7874C5.08543 11.7355 5.19303 11.6353 5.27094 11.524L5.38967 11.3459V9.50565V7.66911L5.2932 7.50586C5.23755 7.4094 5.12624 7.29438 5.02607 7.23131L4.8554 7.12371H3.01886C1.41605 7.12742 1.16376 7.13484 1.0673 7.18679Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M7.39054 7.19821C7.20503 7.29467 7.06775 7.4505 7.00097 7.63972C6.95273 7.777 6.94531 8.06639 6.94531 9.49853C6.94531 10.9307 6.95273 11.2201 7.00097 11.3573C7.07146 11.5503 7.20874 11.7061 7.39796 11.8026C7.53152 11.8693 7.70219 11.873 13.3009 11.873H19.0665L19.2297 11.7877C19.3299 11.7358 19.4412 11.6319 19.5154 11.5243L19.6342 11.3462V9.50595V7.6694L19.5377 7.50615C19.482 7.40969 19.3707 7.29467 19.2706 7.2316L19.0999 7.124H13.312C7.73187 7.12772 7.51668 7.13143 7.39054 7.19821Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M1.0673 14.3103C0.904048 14.3957 0.792743 14.507 0.711119 14.6628C0.644335 14.7926 0.640625 14.904 0.640625 16.6143V18.4286L0.725959 18.5919C0.774192 18.6809 0.885497 18.8034 0.970832 18.8664L1.13037 18.9777L2.97433 18.9889L4.8183 19L4.98155 18.911C5.08543 18.859 5.19303 18.7588 5.27094 18.6475L5.38967 18.4694V16.6292V14.7926L5.2932 14.6294C5.23755 14.5329 5.12624 14.4179 5.02607 14.3548L4.8554 14.2472H3.01886C1.41605 14.251 1.16376 14.2584 1.0673 14.3103Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M7.39054 14.3217C7.20503 14.4182 7.06775 14.574 7.00097 14.7633C6.95273 14.9005 6.94531 15.1899 6.94531 16.6221C6.94531 18.0542 6.95273 18.3436 7.00097 18.4809C7.07146 18.6738 7.20874 18.8296 7.39796 18.9261C7.53152 18.9929 7.70219 18.9966 13.3009 18.9966H19.0665L19.2297 18.9112C19.3299 18.8593 19.4412 18.7554 19.5154 18.6478L19.6342 18.4697V16.6295V14.7929L19.5377 14.6297C19.482 14.5332 19.3707 14.4182 19.2706 14.3551L19.0999 14.2475H13.312C7.73187 14.2513 7.51668 14.255 7.39054 14.3217Z"
+												fill="#D4D4D4"></path>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="products2__cards">
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img3.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Универсальное чистящее средство RM 555, 5л</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img4.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Средство для чистки камня и фасадов RM 623, 5л</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img5.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Универсальный коннектор с аквастопом</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img6.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Автомобильный шампунь «3 в 1» RM 610, 1л</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<button class="products2__btn btn btn-yellow">
+							<span>Загрузить ещё</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="products2 products2--2">
+				<div class="container">
+					<div class="products2__inner">
+						<div class="title-border">Чистящие средства</div>
+						<div class="products2__group">
+							<div class="products2__select filter-select custom_select">
+								<select>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+									<option value="">Подбор по параметрам</option>
+								</select>
+							</div>
+							<div class="products2__subgroup">
+								<div class="products2__select custom_select">
+									<select>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+										<option value="">Сортировать по</option>
+									</select>
+								</div>
+								<div class="sorting">
+									<button class="sorting-btn">
+										<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.09117 0.0714865C0.601256 0.245925 0.241245 0.609648 0.0705177 1.10327C0.00371146 1.29627 0 1.45957 0 4.28028C0 6.72242 0.0111344 7.28285 0.0519604 7.42389C0.237533 8.03256 0.749715 8.47423 1.38066 8.57444C1.52541 8.59671 2.70194 8.60784 4.45375 8.59671C7.53426 8.58557 7.43405 8.59299 7.79035 8.38144C7.98335 8.26639 8.26542 7.98432 8.37305 7.79874C8.59574 7.42017 8.58832 7.54636 8.59945 4.45101C8.61058 2.6992 8.59945 1.52267 8.57718 1.37792C8.47697 0.746972 8.03531 0.23479 7.42663 0.0492172C7.28559 0.00839138 6.72887 -0.00274277 4.26818 0.000967979C1.48458 0.000967979 1.26932 0.00839138 1.09117 0.0714865Z"
+												fill="#515151"></path>
+											<path
+												d="M11.5571 0.052928C10.9632 0.242212 10.5216 0.754395 10.4251 1.37792C10.4028 1.52267 10.3917 2.6992 10.4028 4.45101C10.4139 7.54636 10.4065 7.42017 10.6292 7.79874C10.7368 7.98432 11.0189 8.26639 11.2119 8.38144C11.5682 8.59299 11.468 8.58557 14.5485 8.59671C16.3003 8.60784 17.4768 8.59671 17.6216 8.57444C18.2525 8.47423 18.7647 8.03256 18.9503 7.42389C18.9911 7.28285 19.0023 6.72242 19.0023 4.28028C19.0023 1.45957 18.9985 1.29627 18.9317 1.10327C18.761 0.602225 18.3973 0.238502 17.8962 0.0677738C17.7032 0.000967979 17.5474 -0.00274372 14.7007 0.000967979C12.381 0.00467968 11.6758 0.0158138 11.5571 0.052928Z"
+												fill="#515151"></path>
+											<path
+												d="M1.325 10.4265C0.887044 10.5045 0.378574 10.8682 0.185578 11.2431C-0.00370618 11.6142 5.2851e-06 11.54 5.2851e-06 14.717C5.2851e-06 17.5377 0.00371675 17.701 0.070523 17.894C0.24125 18.395 0.604973 18.7588 1.10602 18.9295C1.29902 18.9963 1.46232 19 4.28303 19C6.72517 19 7.2856 18.9889 7.42663 18.948C8.03531 18.7625 8.47698 18.2503 8.57719 17.6193C8.59946 17.4746 8.61059 16.2981 8.59946 14.5462C8.58832 12.0225 8.5809 11.6884 8.52894 11.5325C8.3545 11.0352 7.9648 10.6455 7.47488 10.4748C7.31158 10.4191 7.00724 10.4117 4.39808 10.4043C2.80587 10.4006 1.42149 10.4117 1.325 10.4265Z"
+												fill="#515151"></path>
+											<path
+												d="M11.8391 10.4154C11.1859 10.5156 10.6849 10.9239 10.477 11.5251C10.4214 11.6884 10.4139 11.9965 10.4028 14.5462C10.3917 16.2981 10.4028 17.4746 10.4251 17.6193C10.5253 18.2503 10.9669 18.7625 11.5756 18.948C11.7167 18.9889 12.2771 19 14.7192 19C17.5399 19 17.7032 18.9963 17.8962 18.9295C18.3973 18.7588 18.761 18.395 18.9317 17.894C18.9985 17.701 19.0023 17.5377 19.0023 14.717C19.0023 12.2748 18.9911 11.7144 18.9503 11.5734C18.7684 10.9721 18.26 10.5267 17.6439 10.4265C17.4397 10.3931 12.0507 10.382 11.8391 10.4154Z"
+												fill="#515151"></path>
+										</svg>
+									</button>
+									<button class="sorting-btn">
+										<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M1.0673 0.0632501C0.904048 0.148584 0.792743 0.25989 0.711119 0.415718C0.644335 0.545575 0.640625 0.65688 0.640625 2.36728V4.18156L0.725959 4.34481C0.774192 4.43385 0.885497 4.55629 0.970832 4.61936L1.13037 4.73067L2.97433 4.7418L4.8183 4.75293L4.98155 4.66389C5.08543 4.61194 5.19303 4.51177 5.27094 4.40046L5.38967 4.22237V2.38212V0.545575L5.2932 0.382326C5.23755 0.285861 5.12624 0.170846 5.02607 0.107772L4.8554 0.000176907H3.01886C1.41605 0.00388718 1.16376 0.0113072 1.0673 0.0632501Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M7.39054 0.0741849C7.20503 0.17065 7.06775 0.326478 7.00097 0.515697C6.95273 0.652975 6.94531 0.942369 6.94531 2.3745C6.94531 3.80664 6.95273 4.09603 7.00097 4.23331C7.07146 4.42624 7.20874 4.58206 7.39796 4.67853C7.53152 4.74531 7.70219 4.74902 13.3009 4.74902H19.0665L19.2297 4.66369C19.3299 4.61175 19.4412 4.50786 19.5154 4.40027L19.6342 4.22218V2.38192V0.545379L19.5377 0.382131C19.482 0.285666 19.3707 0.17065 19.2706 0.107577L19.0999 -1.85966e-05H13.312C7.73187 0.00369167 7.51668 0.00740194 7.39054 0.0741849Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M1.0673 7.18679C0.904048 7.27212 0.792743 7.38343 0.711119 7.53925C0.644335 7.66911 0.640625 7.78042 0.640625 9.49081V11.3051L0.725959 11.4683C0.774192 11.5574 0.885497 11.6798 0.970832 11.7429L1.13037 11.8542L2.97433 11.8653L4.8183 11.8765L4.98155 11.7874C5.08543 11.7355 5.19303 11.6353 5.27094 11.524L5.38967 11.3459V9.50565V7.66911L5.2932 7.50586C5.23755 7.4094 5.12624 7.29438 5.02607 7.23131L4.8554 7.12371H3.01886C1.41605 7.12742 1.16376 7.13484 1.0673 7.18679Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M7.39054 7.19821C7.20503 7.29467 7.06775 7.4505 7.00097 7.63972C6.95273 7.777 6.94531 8.06639 6.94531 9.49853C6.94531 10.9307 6.95273 11.2201 7.00097 11.3573C7.07146 11.5503 7.20874 11.7061 7.39796 11.8026C7.53152 11.8693 7.70219 11.873 13.3009 11.873H19.0665L19.2297 11.7877C19.3299 11.7358 19.4412 11.6319 19.5154 11.5243L19.6342 11.3462V9.50595V7.6694L19.5377 7.50615C19.482 7.40969 19.3707 7.29467 19.2706 7.2316L19.0999 7.124H13.312C7.73187 7.12772 7.51668 7.13143 7.39054 7.19821Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M1.0673 14.3103C0.904048 14.3957 0.792743 14.507 0.711119 14.6628C0.644335 14.7926 0.640625 14.904 0.640625 16.6143V18.4286L0.725959 18.5919C0.774192 18.6809 0.885497 18.8034 0.970832 18.8664L1.13037 18.9777L2.97433 18.9889L4.8183 19L4.98155 18.911C5.08543 18.859 5.19303 18.7588 5.27094 18.6475L5.38967 18.4694V16.6292V14.7926L5.2932 14.6294C5.23755 14.5329 5.12624 14.4179 5.02607 14.3548L4.8554 14.2472H3.01886C1.41605 14.251 1.16376 14.2584 1.0673 14.3103Z"
+												fill="#D4D4D4"></path>
+											<path
+												d="M7.39054 14.3217C7.20503 14.4182 7.06775 14.574 7.00097 14.7633C6.95273 14.9005 6.94531 15.1899 6.94531 16.6221C6.94531 18.0542 6.95273 18.3436 7.00097 18.4809C7.07146 18.6738 7.20874 18.8296 7.39796 18.9261C7.53152 18.9929 7.70219 18.9966 13.3009 18.9966H19.0665L19.2297 18.9112C19.3299 18.8593 19.4412 18.7554 19.5154 18.6478L19.6342 18.4697V16.6295V14.7929L19.5377 14.6297C19.482 14.5332 19.3707 14.4182 19.2706 14.3551L19.0999 14.2475H13.312C7.73187 14.2513 7.51668 14.255 7.39054 14.3217Z"
+												fill="#D4D4D4"></path>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="products2__cards">
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img3.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Универсальное чистящее средство RM 555, 5л</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img4.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Средство для чистки камня и фасадов RM 623, 5л</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img5.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Универсальный коннектор с аквастопом</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+							<div class="product2-card">
+								<div class="product2-card__top">
+									<a href="" class="product2-card__img">
+										<img src="img/product2-img6.webp" alt="">
+									</a>
+								</div>
+								<div class="product2-card__desc">
+									<a href="" class="product2-card__title">Автомобильный шампунь «3 в 1» RM 610, 1л</a>
+									<button class="product2-card__btn btn">
+										<i></i>
+										<span>Добавить к сравнению</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<button class="products2__btn btn btn-yellow">
+							<span>Загрузить ещё</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="product-info2">
+				<div class="container">
+					<div class="product-info2__inner">
+						<div class="title-border">Оригинальные запасные части</div>
+						<div class="product-info2__wrap">
+							<div class="product-info2__img">
+								<img src="img/product-info2__img.webp" alt="">
+							</div>
+							<div class="product-info2__desc text">
+								<p>
+									Если необходимо найти запчасти к вашему аппарату, то можете обратиться к схеме. Нажмите на кнопку
+									"найти запчасть" или
+									обратитесь в официальный сервисный центр Керхер по номеру телефона 
+									<a href="tel:37411388377">+37411388377</a>.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <a class="footer__logo" href="">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="footer__text">Лидер на мировом рынке уборочной техники, предлагающий потребителям инновационные решения, включающие высокоэффективное оборудование, чистящие средства и принадлежности</div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__group">
+                    <ul class="footer__menu">
+                        <li><a href="">Продукция</a></li>
+                        <li><a href="">Отраслевые решения</a></li>
+                        <li><a href="">Сервис и поддержка</a></li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li><a href="">Франшиза</a></li>
+                        <li><a href="">Новости</a></li>
+                        <li><a href=""><span class="nowrap">О компании</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer__group2">
+                    <div class="footer__subgroup">
+                        <a class="footer__phone" href="tel:88008008080">8 800 800-80-80</a>
+                        <div class="footer__info">Звонок по РФ бесплатный</div>
+                    </div>
+                    <a class="footer__mail" href="mailto:12367263@mail.ru">12367263@mail.ru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	</div>
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
